@@ -21,12 +21,7 @@ server <- function(input, output) {
 }
 
 ui <- fluidPage(
-  # sidebarLayout(
-  #   sidebarPanel(
-  #     sliderInput("obs", "Number of observations:", min = 10, max = 500, value = 100)
-  #   ),
-  #   mainPanel(plotOutput("distPlot"))
-  # )
+  
   h2("Bộ chuyển tiếng Việt – Shiny"),
   textInput("tiengviet", "TiengViet", "Đang có trục trặc"),
   h2(""),
